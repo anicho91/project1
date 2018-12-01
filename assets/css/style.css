@@ -1,0 +1,251 @@
+body, html {
+    background: url("../images/symphony.png");
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+
+.home-page {
+    background: rgb(63,63,191,0.33);
+    border: 1px solid black;
+    width: 80%;
+    max-width: 650px;
+}
+
+.hide {
+    display: none;
+}
+
+
+.app-text  {
+    line-height: 1.5;
+}
+
+#fullPage {
+    margin-left: 20%;
+}
+
+#headerimg{
+    text-align: center;
+}
+
+/* .icon-bar {
+    background-color: #000000;
+} */
+
+#sidebar {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+    width: 300px;    
+    overflow-x: hidden; 
+    z-index: 1;
+}
+
+#pageResults {
+    width: 100%; 
+}
+
+li, li a {
+    /* width: 100%; */
+    font-size: 20px;
+    font-weight: 430px;
+    line-height: 40px;
+    color: #000000;
+}
+
+li:hover {
+    background-color: rgba(63, 63, 191, 0.363);
+    
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+h2{
+    width: 100%;
+    
+    background-color: rgb(63,63,191,0.33);
+}
+
+#search-btn{
+    width: 100px;
+    background-color: rgba(63, 63, 191, 0.363);
+    border: solid 2px rgba(0,0,0,0.55);
+    color: white;
+}
+
+#search-btn:active{
+    border: solid 2px #FFF;
+}
+
+#artist-name {
+    background:  rgba(0, 13, 194, 0.33);
+    font-weight: bold;
+}
+
+#imglogo{
+    height: 50px;
+}
+
+#imglogo_sm{
+    height: 20px;
+}
+
+#btnSearch {
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 430px;
+    text-align: inherit;
+    color: #000000;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+.navigation {
+    background: rgba(0, 13, 194, 0.33);
+}
+
+.result-header {
+    font-family: 'Nosifer', 'cursive';
+    background: rgba(0, 13, 194, 0.33);
+}
+
+.state {
+    color: #6468a1;
+}
+.event-date {
+    color: #6468a1;
+}
+
+.smallBar {
+    display: none;
+}
+
+@media screen and (max-width: 490px) { 
+    h1{
+        font-size: 26px;
+    }
+    #imglogo{
+        width: 25px;
+        height: 29px;
+    }
+}
+
+/* @media screen and (max-width: 800px) { 
+
+} */
+
+@media screen and (max-width: 575px){
+    #sidebar{
+        flex-basis: 100%;
+    }
+    .col-sm-2{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .col-3{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .col-9{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+}
+
+ @media screen and (max-width: 770px) { 
+    #fullPage {
+        margin-top: 110px;
+        margin-left: 0;
+        z-index: 1;
+    }
+    
+    #pageResults {
+    margin-left: -10px;
+    overflow-x: hidden;
+    z-index: 1;
+    }
+    
+    #sidebar {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    }
+
+    #headerimg {
+    text-align: left; 
+    font-size: 26px;
+    padding-top: 30px;   
+    padding-left: 30px;
+    }
+
+    ul {
+        margin-top: 13px;        
+    }
+    ul a{
+        font-size: 16px;
+    }
+
+    .navbarList {
+        margin-top: -50px;
+        display: none;
+    }
+
+    .navbarList2 {
+        display: inline;
+        position: relative;
+        float: right;
+        top: -70px;
+        z-index: 99;
+    }
+
+    .smallBar {
+        display: inline;
+        padding-bottom: 15px;
+    }
+
+    a {
+        font-size: 20px;
+        font-weight: 430px;
+        line-height: 40px;
+        color: #000000;
+    }
+    
+    a:hover {
+     text-decoration: underline;
+        
+    }
+
+    #btnSearch2 {
+        background-color: transparent;
+        font-size: 16px;
+        font-weight: 430px;
+        text-align: inherit;
+        color: #000000;
+        margin-top: -4px;
+        margin-right: -12px;
+    }
+
+    #btnSearch2:hover {
+        text-decoration: underline;
+    }
+
+    .col-sm-2{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .col-3{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+}  
